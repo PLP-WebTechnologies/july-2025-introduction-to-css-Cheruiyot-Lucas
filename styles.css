@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header */
+.site-header {
+  text-align: center;
+  background-color: #007acc;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+/* Navigation */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #007acc;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #005999;
+}
+
+/* Card sections (demonstrating Box Model) */
+.card {
+  background-color: white;
+  padding: 20px;          /* Padding inside the box */
+  margin: 15px 0;         /* Space outside the box */
+  border: 2px solid #ddd; /* Border around content */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 20px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #005999;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #eee;
+  border-radius: 6px;
+}
